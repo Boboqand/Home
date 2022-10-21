@@ -1,0 +1,76 @@
+/* 1200
+1030
+992
+768 */
+
+@media  (max-width: 1200px){
+
+     .burger__menu{
+          display: block !important;
+     }
+     .header__item__btn{
+        display: none !important;
+     }    
+}
+
+@media  (max-width: 1030px){
+     .header__list{
+        display: none !important;
+     }
+       .inspiration__grid{
+            grid-template-columns: auto !important;
+            
+       }
+       .Works__content__box1{
+            flex-direction: column;
+            gap: 15px;
+            
+       }
+       .Testimonial__logo{
+          grid-template-columns: auto auto  !important;
+          display: flex;
+          justify-content: center;
+       }
+       .grids{
+            grid-template-columns: auto auto !important;
+            display: flex;
+            justify-content: center;
+            
+            
+       } 
+}
+
+@media  (max-width: 992px){
+     .Works__content__box1{
+          grid-column-start: 1 span !important;
+          
+     }
+     .Works__content{
+          grid-template-columns: auto !important;
+     }
+     .Testimonial__box{
+          grid-template-columns: 615px  !important;
+     }  
+    
+     .footer{
+          grid-template-columns: auto !important;
+          
+     }
+
+}
+@media  (max-width: 768px){
+     
+     .grids{
+          grid-template-columns: auto  !important;
+          
+     }
+     .Testimonial__logo{
+         grid-template-columns: auto  !important;
+         display: flex;
+         justify-content: center;
+         
+      }
+}
+
+
+
